@@ -1,0 +1,24 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "ncurses:fPIC=True\nncurses:shared=False\nncurses:with_cxx=True\nncurses:with_extended_colors=True\nncurses:with_pcre2=False\nncurses:with_progs=True\nncurses:with_reentrant=False\nncurses:with_ticlib=auto\nncurses:with_tinfo=auto\nncurses:with_widec=True",
+    "requires": [
+     "1"
+    ],
+    "path": "../conanfile.txt",
+    "context": "host"
+   },
+   "1": {
+    "ref": "ncurses/6.4",
+    "options": "fPIC=True\nshared=False\nwith_cxx=True\nwith_extended_colors=True\nwith_pcre2=False\nwith_progs=True\nwith_reentrant=False\nwith_ticlib=auto\nwith_tinfo=auto\nwith_widec=True",
+    "package_id": "5b2ec9f882eb1a4a226ce79cec487fb76ae03d56",
+    "prev": "0",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": false
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=gcc\ncompiler.libcxx=libstdc++\ncompiler.version=11\nos=Linux\nos_build=Linux\n[options]\n[build_requires]\n[env]\n"
+}
